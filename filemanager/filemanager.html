@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+<ul>
+    <li><a href="/filemanager/all">File Manager</a><li>
+</ul>
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ filemanager.fileName }}</h1>
+<p>{{ filemanager.desc }}</p>
+{% if filemanager.file_to_upload %}
+<p><img src="/static/assets/uploaded_file/{{filemanager.file_to_upload}}" width="200"></p>
+{% endif %}
+
+
+{% endblock %}
