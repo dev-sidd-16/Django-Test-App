@@ -69,6 +69,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    ('assets','/home/siddhant/Documents/IIIT-H/Coding/Django tutes/django_app/static'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -108,7 +109,8 @@ ROOT_URLCONF = 'django_app.urls'
 WSGI_APPLICATION = 'django_app.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '/home/siddhant/Documents/IIIT-H/Coding/Django tutes/templates',
+    '/home/siddhant/Documents/IIIT-H/Coding/Django tutes/django_app/templates',
+    '/home/siddhant/Documents/IIIT-H/Coding/Django tutes/django_app/filemanager/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
